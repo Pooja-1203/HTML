@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.6;
+
+}
+
+header {
+    background-image: url(https://png.pngtree.com/background/20250207/original/pngtree-soft-pastel-floral-design-light-blue-background-picture-image_16257054.jpg);
+    text-shadow: 5px 5px 5px black;
+    color: rgb(233, 9, 184);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: rgb(211, 133, 97);
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid rgb(3, 233, 202);
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#resume a {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(207, 114, 153);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+#resume a:hover {
+    background: #555;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
